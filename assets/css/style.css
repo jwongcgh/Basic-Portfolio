@@ -1,7 +1,7 @@
 html {	
   position: relative;
   min-height: 100%;
-  }  /* Need this part to make fottnote position absolute to work with respect to page */
+  }  /* Need this part to make footnote position absolute to work with respect to page */
 
 * {
   box-sizing: border-box;
