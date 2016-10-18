@@ -1,1 +1,1 @@
-<?php include(‘Student_Bio_html_css.html'); ?>
+<?php include(‘index.html'); ?>
