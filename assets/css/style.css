@@ -24,32 +24,76 @@ header {
   background-color: #ffffff;
   border-color: #cccccc;
   overflow: hidden;
-  margin: -20px 0 20px 0;
+  margin: 0px 0 20px 0;
   border-bottom: #e0e0eb 3px solid;
   }
 
 #h1Me {
   float: left;
   width: 650px;
-/*  width: 70%; */
-  margin-bottom: -25px;
+  }
+
+h1 {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  width: 240px;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
   }
 
 #nav {
   float: left;
   width: 270px;
-/*  width: 30%; */
-  margin: 30px 0 0 0;
+  margin: 30px 0 0 40px;
   text-align: center;
-  }
-
-hr {
- margin-bottom: 20px;
   }
 
 li {
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
+  }
+
+/* section */
+
+.mainSection {
+  width: 650px;
+  background-color: #ffffff;
+  float: left;
+  padding: 0 25px 25px 25px;
+  margin: 0 0 80px 0;
+  border-bottom: #e0e0eb 3px solid;
+  }
+
+.contactInfo {
+  float: left;
+  width: 270px;
+  margin: 0 0 20px 40px;
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-bottom: #e0e0eb 3px solid;
+  }
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4aaaa5;
+  padding: 20px 20px 0 0;
+  }
+
+ h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+  }
+
+img {
+  float: left;
+  font-size: 0;
+  width: 300px;
+  padding: 20px 20px 20px 0;
   }
 
 #links {
@@ -57,33 +101,8 @@ li {
   clear: both;
   }
 
-h1 {
-  background-color: #4aaaa5;
-  color: white;
-  }
-
-h2, h3 {
-  color: #4aaaa5;
-  }
-
-.mainSection {
-  width: 650px;
-/*  width: 67.7%;  */
-  background-color: #ffffff;
-  border-color: #dddddd;
-  float: left;
-  padding: 0 25px 25px 25px;
-  margin: 0 0 90px 0;
-  }
-
-.contactInfo {
-  float: left;
-  width: 270px;
-/*  width: 28.1%;  */
-  margin: 0 0 20px 40px;
-  background-color: #ffffff;
-  padding: 25px;
-  text-align: center;
+hr {
+ margin-bottom: 20px;
   }
 
 footer {
@@ -92,49 +111,22 @@ footer {
   color: white;
   text-align: center;
   border-top: solid #4aaaa5 3px;
-  padding: 2px;
+  padding: 20px;
   width: 960px;		   /* fixes with to cover document width ??? */
   position: absolute;  /* for sticky footnote */
   height: 60px;		   /* look at body for margin to match footnote height */
   bottom: 0;		   /* bottom of page */
   }
 
-#Me {
-  width: 240px;
-/* width: 40%;  */
-  padding: 20px 20px 20px 20px;
-  }
-
-#aboutMe {
-  width: 240px;
-  padding: 15px 20px 0 20px;
-  background-color: #ffffff;
-  color: #4aaaa5;
-  }
-
-img {
-  float: left;
-  display: inline;
-  font-size: 0;
-  width: 300px;
-  padding: 20px 20px 20px 0;
-  }
-
 .icons {
   padding: 0;
   width: 68px;
-  height: auto;
   margin: 2px;
-  }
-
-.dial {
-  margin: 0;
   }
 
 #chatter {
   font-size: small;
   color: #604020;
-  margin: 0.1;
   }
 
 .voice {
@@ -142,7 +134,7 @@ img {
   color: #cc7a00;
   }
 
-/* in the mean time contacts page only */
+/* contacts page only */
 
 textarea {
   width: 100%;
@@ -156,7 +148,6 @@ input {
   width: 100%;
   margin: 0 0 10px 0;
   border: 1px solid #e6e6e6;
-  resize: none;
   padding: 8px;
   }
 
@@ -169,7 +160,7 @@ button {
   border-radius: 2px;
   }
 
-/* in the mean time portfolio page only */
+/* portfolio page only */
 
 .col-left {
   float: left;
@@ -188,17 +179,12 @@ button {
   }
 
 .proj-img {
-  display: flex;
-  justify-content: center;
   margin: -20px 0 0 0;
-  border: 0;
   }
 
 .proj-label {
   position: absolute;
   bottom: 10px;
-  z-index: 2;
-  margin: 0;
   width: 100%;
   background-color: #4aaaa5;
   color: white;
